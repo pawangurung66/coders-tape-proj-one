@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/service', [ServiceController::class, 'index']);
+Route::post('/service', [ServiceController::class, 'store']);
